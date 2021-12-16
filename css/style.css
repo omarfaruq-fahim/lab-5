@@ -1,0 +1,378 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+a {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+.wrapper {
+  width: 90%;
+  margin: auto;
+  height: auto;
+}
+/******************
+header section css code start here
+*******************/
+.header {
+  background-color: #000000;
+}
+.header-height {
+  height: 55px;
+}
+.navber {
+  padding: 10px;
+}
+.navber ul {
+  width: 100%;
+  text-align: end;
+}
+.navber ul li {
+  display: inline-block;
+  padding: 10px;
+}
+.navber a {
+  color: #f5f5f5;
+  font-size: 18px;
+}
+.navber a:hover {
+  color: #ffaa0e;
+}
+/******************
+header section css code end here
+*******************/
+
+/******************
+Banner section css code start here
+*******************/
+.banner-height {
+  height: 92vh;
+}
+.banner-area .col-12 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/original.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  position: relative;
+}
+.banner-area .banner-details {
+  text-align: center;
+  position: absolute;
+  top: 35%;
+  color: #fffdf8;
+  width: 70%;
+  margin: auto;
+}
+.banner-area h1 {
+  width: 70%;
+  font-size: 50px;
+  margin: auto;
+}
+.banner-area p {
+  font-size: 18px;
+  padding: 20px 0px 30px 0px;
+  width: 75%;
+  margin: auto;
+}
+.banner-details .button-1 a {
+  background-color: #393e46;
+  color: #ffaa0e;
+  padding: 15px 20px;
+  border-radius: 5px;
+  font-size: 18px;
+}
+.button-1 a:hover {
+  color: #f1eded;
+  background-color: #f3e411;
+}
+/******************
+banner section css code end here
+*******************/
+
+/******************
+Contant section css code start here
+*******************/
+.contant .col-9 {
+  padding: 20px 5px;
+  background-color: #f5f5f5;
+}
+/* about section css code */
+.about-section {
+  height: 500px;
+}
+.about-section .col-7 {
+  padding: 60px 10px;
+}
+.about-section h1 {
+  color: #c47f3a;
+  font-size: 46px;
+}
+.about-section .col-7 h2 {
+  padding: 0px 0px 20px 0px;
+}
+.about-section .col-7 p {
+  text-transform: uppercase;
+  font-size: 18px;
+}
+.contant h1 {
+  color: #89059b;
+  font-size: 46px;
+  padding-bottom: 20px;
+}
+.education .col-4 {
+  color: #f5f5f5;
+  width: 33%;
+  height: 130px;
+  margin: 20px 1px;
+  padding: 10px;
+  background-color: #393e46;
+}
+.education .col-4 h2 {
+  color: #7cf56c;
+}
+
+/* Skill section css code here */
+.skills h1 {
+  color: #89059b;
+  font-size: 46px;
+  padding-bottom: 20px;
+}
+.border {
+  border: 1px solid rgb(136, 126, 126);
+  font-size: 18px;
+  color: #f5f5f5;
+  border-radius: 5px;
+  width: 90%;
+  margin: 5px 0px;
+}
+.bar-color-1 {
+  background-color: #0e5aff;
+  height: 24px;
+  width: 70%;
+}
+.bar-color-2 {
+  background-color: #abff0e;
+  height: 24px;
+  width: 78%;
+}
+.bar-color-3 {
+  background-color: #c00303;
+  height: 24px;
+  width: 39%;
+}
+.bar-color-4 {
+  background-color: #025316;
+  height: 24px;
+  width: 89%;
+}
+.bar-color-5 {
+  background-color: #efff0e;
+  height: 24px;
+  width: 85%;
+}
+.bar-color-6 {
+  background-color: #391f80;
+  height: 24px;
+  width: 93%;
+}
+
+/* projects section css code start here */
+.projects .col-6 {
+  color: whitesmoke;
+  width: 49%;
+  margin: 1px;
+  background-color: #393e46;
+}
+.projects h1 {
+  color: #ffaa0e;
+  font-size: 40px;
+  padding: 20px 0;
+}
+.projects h2 {
+  color: #ffaa0e;
+  padding: 20px 0px;
+}
+.projects h4 {
+  padding: 7px 0px;
+}
+/******************
+Contant section css code end here
+*******************/
+
+/******************
+Right side section css code start here
+*******************/
+.right-side {
+  padding: 30px 5px;
+  background-color: #222831;
+}
+/* Blog area */
+.blog {
+  color: #f5f5f5;
+  padding: 10px 5px;
+}
+.blog-post {
+  padding-top: 20px;
+  border-bottom: 1px dotted #ffaa0e;
+}
+.blog-post h4 {
+  margin-top: 30px;
+}
+.blog-post small {
+  font-style: italic;
+}
+.view-btn {
+  margin-top: 60px;
+  padding: 10px 20px;
+  background-color: #8039db;
+  width: 50%;
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.view-btn a {
+  color: #0a0a0a;
+  font-size: 18px;
+}
+.view-btn a:hover {
+  color: #f5f5f5;
+}
+
+.youtube h2 {
+  color: whitesmoke;
+  margin-top: 30px;
+  padding-top: 30px;
+}
+/* newsletter area */
+.newsletter {
+  padding: 5px;
+  text-align: center;
+  border: 1px dashed #ffaa0e;
+  margin-top: 82px;
+}
+.newsletter h2 {
+  color: #f5f5f5;
+}
+.newsletter input {
+  font-size: 16px;
+  padding: 10px 5px;
+  width: 78%;
+  margin-top: 20px;
+}
+.newsletter .submit-btn {
+  font-size: 16px;
+  padding: 10px 5px;
+  width: 78%;
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: #910491;
+  border: 0px;
+  border-radius: 5px;
+}
+/******************
+Right side section css code end here
+*******************/
+
+/******************
+Big-footer section css code start here
+*******************/
+.contact .col-12 {
+  padding: 80px 5px;
+  background-color: #f5f5f5;
+}
+.contact-form {
+  width: 80%;
+  margin: auto;
+}
+.contact-form h1 {
+  color: #6e079e;
+}
+.contact-form input {
+  width: 100%;
+  padding: 10px 10px;
+  margin: 10px 0px;
+  border: 2px solid #38eb02;
+}
+.contact-form textarea {
+  border: 2px solid #38eb02;
+}
+.contact-form button {
+  background-color: #6a666b;
+  border: 0;
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/******************
+Big-footer section css code end here
+*******************/
+.footer .col-12 {
+  background-color: #222831;
+  padding: 30px 5px;
+  color: whitesmoke;
+}
+.footer li a {
+  color: whitesmoke;
+  padding-top: 5px;
+}
+.footer li a:hover {
+  color: #ffaa0e;
+}
+.footer li {
+  padding-top: 5px;
+}
+.footer h3 {
+  color: #ffaa0e;
+}
+/******************
+layout style css code start here
+*******************/
+.col-1 {
+  width: 8.33%;
+}
+.col-2 {
+  width: 16.66%;
+}
+.col-3 {
+  width: 25%;
+}
+.col-4 {
+  width: 33.33%;
+}
+.col-5 {
+  width: 41.66%;
+}
+.col-6 {
+  width: 50%;
+}
+.col-7 {
+  width: 58.33%;
+}
+.col-8 {
+  width: 66.66%;
+}
+.col-9 {
+  width: 75%;
+}
+.col-10 {
+  width: 83.33%;
+}
+.col-11 {
+  width: 91.66%;
+}
+.col-12 {
+  width: 100%;
+}
+
+[class*="col-"] {
+  float: left;
+}
+/******************
+layout style css code end here
+*******************/
